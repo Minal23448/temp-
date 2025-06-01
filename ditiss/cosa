@@ -1,1 +1,35 @@
-https://www.examveda.com/computer-science/practice-mcq-question-on-linux/
+#CREATE TABLE
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+
+#INSERT
+INSERT INTO TABLE_NAME (COLUMN1, COLUMN2, ...) VALUES
+    (VALUE1, VALUE2, ...),
+    (VALUE1, VALUE2, ...),
+    ...;
+
+#PRIMARY KEY
+CREATE TABLE table_name (
+    column_name DATATYPE PRIMARY KEY,
+    other_column DATATYPE
+);
+
+#FOREIGNKEY 
+CREATE TABLE ChildTable (
+    Column1 DATATYPE,
+    ForeignKeyColumn DATATYPE REFERENCES ParentTable(ParentPrimaryKey)
+);
+
+
+
+ALTER TABLE table_name
+ADD column_name datatype; 
+
+
+
+
