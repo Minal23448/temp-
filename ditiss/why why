@@ -1,0 +1,36 @@
+# Simple Calculator
+
+num1 = int(input('Enter the first number: '))
+num2 = int(input('Enter the second number: '))
+op = input('Input an operator(+, -, * and /): ')
+
+if op == '+':
+    print(num1+num2)
+elif op == '-':
+    print(num1-num2)
+elif op == '*':
+    print(num1*num2)
+elif op == '/':
+    print(num1/num2)
+else:
+    print('Invalid operator')
+
+
+
+
+Area of Triangle
+
+
+base = int(input("Enter the base of the triangle: "))
+height = int(input("Enter the height of the triangle: "))
+
+# Check if the base and height are non-negative
+
+if base >= 0 and height >= 0:
+  
+    area = 0.5 * base * height
+    print("The area of the triangle is:", area)
+
+else:
+
+    print("The inputs are invalid. Base and height should be non-negative.")
